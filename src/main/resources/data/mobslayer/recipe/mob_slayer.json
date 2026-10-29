@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "redstone",
+	"pattern": [
+		"SSS",
+		"IRI",
+		"IBI"
+	],
+	"key": {
+		"B": "minecraft:iron_block",
+		"I": "minecraft:iron_ingot",
+		"R": "minecraft:redstone",
+		"S": "minecraft:iron_sword"
+	},
+	"result": {
+		"id": "mobslayer:mob_slayer",
+		"count": 1
+	}
+}

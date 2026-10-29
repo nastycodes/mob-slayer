@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "mobslayer",
+	"version": "${version}",
+	"name": "Mob Slayer",
+	"description": "Adds the Mob Slayer: a block that damages mobs in front of it without ammunition, can be switched with redstone, is enchanted like a sword and stores the experience of its kills for you to collect.",
+	"authors": [
+		"nasty.codes"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/${slug}",
+		"sources": "https://github.com/nastycodes/mob-slayer",
+		"issues": "https://github.com/nastycodes/mob-slayer/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/mobslayer/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"codes.nasty.mobslayer.MobSlayer"
+		],
+		"client": [
+			"codes.nasty.mobslayer.client.MobSlayerClient"
+		],
+		"modmenu": [
+			"codes.nasty.mobslayer.client.config.ModMenuIntegration"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

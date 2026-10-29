@@ -1,0 +1,12 @@
+{
+	"parent": "minecraft:block/cube",
+	"textures": {
+		"particle": "mobslayer:block/mob_slayer_side",
+		"north": "mobslayer:block/mob_slayer_front",
+		"south": "mobslayer:block/mob_slayer_back",
+		"east": "mobslayer:block/mob_slayer_side",
+		"west": "mobslayer:block/mob_slayer_side",
+		"up": "mobslayer:block/mob_slayer_side",
+		"down": "mobslayer:block/mob_slayer_side"
+	}
+}

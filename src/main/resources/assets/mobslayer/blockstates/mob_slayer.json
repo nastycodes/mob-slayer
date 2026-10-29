@@ -1,0 +1,50 @@
+{
+	"variants": {
+		"active=false,facing=down": {
+			"model": "mobslayer:block/mob_slayer",
+			"x": 90
+		},
+		"active=true,facing=down": {
+			"model": "mobslayer:block/mob_slayer_active",
+			"x": 90
+		},
+		"active=false,facing=up": {
+			"model": "mobslayer:block/mob_slayer",
+			"x": 270
+		},
+		"active=true,facing=up": {
+			"model": "mobslayer:block/mob_slayer_active",
+			"x": 270
+		},
+		"active=false,facing=north": {
+			"model": "mobslayer:block/mob_slayer"
+		},
+		"active=true,facing=north": {
+			"model": "mobslayer:block/mob_slayer_active"
+		},
+		"active=false,facing=south": {
+			"model": "mobslayer:block/mob_slayer",
+			"y": 180
+		},
+		"active=true,facing=south": {
+			"model": "mobslayer:block/mob_slayer_active",
+			"y": 180
+		},
+		"active=false,facing=west": {
+			"model": "mobslayer:block/mob_slayer",
+			"y": 270
+		},
+		"active=true,facing=west": {
+			"model": "mobslayer:block/mob_slayer_active",
+			"y": 270
+		},
+		"active=false,facing=east": {
+			"model": "mobslayer:block/mob_slayer",
+			"y": 90
+		},
+		"active=true,facing=east": {
+			"model": "mobslayer:block/mob_slayer_active",
+			"y": 90
+		}
+	}
+}
